@@ -61,6 +61,13 @@ namespace BH.oM.Geometry.CoordinateSystem
         public Cartesian()
         { }
 
+
+        /***************************************************/
+        /**** Static special cases                      ****/
+        /***************************************************/
+
+        public static readonly Cartesian GlobalXYZ = new Cartesian();
+
         /***************************************************/
         /**** Explicit Casting                          ****/
         /***************************************************/
